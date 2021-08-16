@@ -2,14 +2,14 @@
 
 Follow following instructions to setup the project.
 
-1. Clone the following repository on your lab[1-5] machine
+1. Clone the following repository on your lab[1-5] machine\
    `git clone https://github.com/cu-scalab/Project-1`
 2. Go to the code directory
-3. Run the following command,`./ert config.txt`. If you encounter permission problem, please run `chmod +x ./ert`
+3. Run the following command,`./ert config.txt`. If you encounter permission problem, please run `chmod +x ./ert`\
   Step 3 will run the tool and produce results. It will save the results in Results.lab.cs.clemson.edu folder. It will produce a .ps file. 
-4. Convert it to a pdf file using following command:-
+4. Convert it to a pdf file using following command:-\
  `ps2pdf roofline.ps roofline.pdf`
-5. Download it to your local system using scp
+5. Download it to your local system using scp:\
    'scp username@lab1.cs.clemson.edu:/your_project_directory/.ps file'
    
 # Questions
